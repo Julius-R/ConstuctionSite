@@ -212,4 +212,52 @@
     }
   }
 }
+#stance {
+  display: flex;
 
+  .card {
+    width: calc(33.3333%);
+    text-align: center;
+    padding: 10px 20px;
+    color: $light;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    i {
+      color: $yellow;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-weight: 500;
+      font-size: 1.3em;
+      max-width: 300px;
+    }
+
+    p {
+      font-size: 1.05em;
+      max-width: 350px;
+    }
+  }
+
+  .card_first {
+    background-image: linear-gradient(rgba(0,0,0, 0.60), rgba(0,0,0, 0.60)), url("../imgs/img8.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card_second {
+    background-image: linear-gradient(rgba(0,0,0, 0.60), rgba(0,0,0, 0.60)), url("../imgs/img7.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card_third {
+    background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("../imgs/img6.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}

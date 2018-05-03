@@ -256,3 +256,38 @@ body {
         margin: 0.5rem; }
         #resolve .statement .img-gal .img-box img {
           height: 150px; }
+
+#stance {
+  display: flex; }
+  #stance .card {
+    width: calc(33.3333%);
+    text-align: center;
+    padding: 10px 20px;
+    color: #E8F1F5;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #stance .card i {
+      color: #FFDE25;
+      margin-bottom: 10px; }
+    #stance .card h4 {
+      font-weight: 500;
+      font-size: 1.3em;
+      max-width: 300px; }
+    #stance .card p {
+      font-size: 1.05em;
+      max-width: 350px; }
+  #stance .card_first {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imgs/img8.jpg");
+    background-size: cover;
+    background-position: center; }
+  #stance .card_second {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imgs/img7.jpg");
+    background-size: cover;
+    background-position: center; }
+  #stance .card_third {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../imgs/img6.jpg");
+    background-size: cover;
+    background-position: center; }
